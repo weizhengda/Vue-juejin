@@ -3,14 +3,25 @@
         <div class="left">
            <router-link to="/tui">推荐</router-link>
            <router-link to="/android">Android</router-link>
-           <router-link to="">前端</router-link>
-           <router-link to="">IOS</router-link>
-           <router-link to="">后端</router-link>
-           <router-link to="">设计</router-link>
-           <router-link to="">产品</router-link>
-           <router-link to=""><img src="./static/images/app-qr.png" alt=""></router-link>
+           <router-link to="/fe">前端</router-link>
+           <router-link to="/ios">IOS</router-link>
+           <router-link to="/be">后端</router-link>
+           <router-link to="/design">设计</router-link>
+           <router-link to="/product">产品</router-link>
+           <router-link to="/"><img src="./static/images/app-qr.png" alt=""></router-link>
         </div>
         <router-view></router-view>
+        <div class="right">
+          <div class="content1">
+             <h3>掘金 · 一个只有高手分享的技术社区，立即加入：</h3>
+             <a href="">使用微博登录</a>
+             <a href="">使用微信登录</a>
+             <a href="">使用GitHub登录</a>
+             <a href="">邮箱/手机注册</a>
+             <span>这些大厂的工程师也在使用掘金</span>
+             <img data-v-fe674c4c="" src="//gold-cdn.xitu.io/v3/static/img/user-company.c6a25da.png" class="user-company">
+          </div>
+        </div>
     </div>
 </template>
 

@@ -14,6 +14,11 @@ Vue.use(VueRouter);  /*必须得use*/
 import Home from './components/Home.vue';
    import Tui from './components/Home/Tui.vue';
    import Android from './components/Home/Android.vue';
+   import Ios from './components/Home/Ios.vue';
+   import Fe from './components/Home/Fe.vue';
+   import Be from './components/Home/Be.vue';
+   import Design from './components/Home/Design.vue';
+   import Product from './components/Home/Product.vue';
 import Zhuan from './components/Zhuan.vue';
 
 
@@ -25,7 +30,12 @@ const routes = [
     children:[
       {path:'/',component:Tui},
       {path:'/tui',component:Tui},
-      {path:'/android',component:Android}
+      {path:'/android',component:Android},
+      {path:'/ios',component:Ios},
+      {path:'/fe',component:Fe},
+      {path:'/be',component:Be},
+      {path:'/design',component:Design},
+      {path:'/product',component:Product}
     ]
 },
   { path: '/zhuan', component: Zhuan},

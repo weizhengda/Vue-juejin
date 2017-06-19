@@ -102,17 +102,6 @@
                </router-link>
             </div>
         </div>
-        <div class="right">
-          <div class="content1">
-             <h3>掘金 · 一个只有高手分享的技术社区，立即加入：</h3>
-             <a href="">使用微博登录</a>
-             <a href="">使用微信登录</a>
-             <a href="">使用GitHub登录</a>
-             <a href="">邮箱/手机注册</a>
-             <span>这些大厂的工程师也在使用掘金</span>
-             <img data-v-fe674c4c="" src="//gold-cdn.xitu.io/v3/static/img/user-company.c6a25da.png" class="user-company">
-          </div>
-        </div>
    </div>
 </template>
 

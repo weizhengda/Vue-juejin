@@ -3,7 +3,7 @@
    <div class="header-wrap">
    <div class="header">
       <ul>
-         <li><router-link to="/"><img src="./components/static/images/logo.a7995ad.svg" alt=""></router-link></li>
+         <li><router-link to="/home"><img src="./components/static/images/logo.a7995ad.svg" alt=""></router-link></li>
          <li><router-link to="/home">首页</router-link></li>
          <li><router-link to="/zhuan">专栏</router-link></li>
          <li><router-link to="/zhuan">收藏集</router-link></li>

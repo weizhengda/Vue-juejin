@@ -11,7 +11,7 @@
                    <img src="https://user-gold-cdn.xitu.io/2017/6/10/2c93bda68b7a3b09478f2439401fabc4?imageView2/1/w/120/h/120/q/85/format/jpg/interlace/1" alt="">
                  </div>
                  <div class="text">
-                    <span>Android进阶之路-重构你的项目</span>
+                    <span>设计进阶之路-重构你的项目</span>
                     <ul>
                        <li>15</li>
                        <li>像一只狗</li>
