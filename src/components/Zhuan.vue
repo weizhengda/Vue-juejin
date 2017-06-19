@@ -29,5 +29,7 @@
 </script>
 
 <style scoped>
-  
+  .zhuan{
+      margin-top:50px;
+  }
 </style>

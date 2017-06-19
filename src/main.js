@@ -12,7 +12,8 @@ Vue.use(VueRouter);  /*必须得use*/
 //3.引入组件。
 
 import Home from './components/Home.vue';
-
+   import Tui from './components/Home/Tui.vue';
+   import Android from './components/Home/Android.vue';
 import Zhuan from './components/Zhuan.vue';
 
 
@@ -20,8 +21,16 @@ import Zhuan from './components/Zhuan.vue';
 
 
 const routes = [
-  { path: '/home', component: Home },
-  { path: '/zhuan', component: Zhuan}
+  { path: '/home', component: Home,
+    children:[
+      {path:'/',component:Tui},
+      {path:'/tui',component:Tui},
+      {path:'/android',component:Android}
+    ]
+},
+  { path: '/zhuan', component: Zhuan},
+  { path: '/', component: Home }
+
 ]
 
 
