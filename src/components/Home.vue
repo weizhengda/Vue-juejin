@@ -1,13 +1,13 @@
 <template>
     <div class="home"> 
         <div class="left">
-           <router-link to="/tui">推荐</router-link>
-           <router-link to="/android">Android</router-link>
-           <router-link to="/fe">前端</router-link>
-           <router-link to="/ios">IOS</router-link>
-           <router-link to="/be">后端</router-link>
-           <router-link to="/design">设计</router-link>
-           <router-link to="/product">产品</router-link>
+           <router-link to="/welcome/tui">推荐</router-link>
+           <router-link to="/welcome/android">Android</router-link>
+           <router-link to="/welcome/fe">前端</router-link>
+           <router-link to="/welcome/ios">IOS</router-link>
+           <router-link to="/welcome/be">后端</router-link>
+           <router-link to="/welcome/design">设计</router-link>
+           <router-link to="/welcome/product">产品</router-link>
            <router-link to="/"><img src="./static/images/app-qr.png" alt=""></router-link>
         </div>
         <router-view></router-view>

@@ -3,12 +3,12 @@
    <div class="header-wrap">
    <div class="header">
       <ul>
-         <li><router-link to="/home"><img src="./components/static/images/logo.a7995ad.svg" alt=""></router-link></li>
-         <li><router-link to="/home">首页</router-link></li>
-         <li><router-link to="/zhuan">专栏</router-link></li>
-         <li><router-link to="/zhuan">收藏集</router-link></li>
-         <li><router-link to="/zhuan">发现</router-link></li>
-         <li><router-link to="/zhuan">标签</router-link></li>
+         <li><router-link to="/welcome"><img src="./components/static/images/logo.a7995ad.svg" alt=""></router-link></li>
+         <li><router-link to="/welcome">首页</router-link></li>
+         <li><router-link to="/zhuanlan">专栏</router-link></li>
+         <li><router-link to="/zhuanlan">收藏集</router-link></li>
+         <li><router-link to="/zhuanlan">发现</router-link></li>
+         <li><router-link to="/zhuanlan">标签</router-link></li>
       </ul>
       <form action="">
          <input type="text" placeholder="搜索掘金"><span></span>

@@ -26,20 +26,20 @@ import Zhuan from './components/Zhuan.vue';
 
 
 const routes = [
-  { path: '/home', component: Home,
+ 
+  { path: '/welcome', component:Home,
     children:[
-      {path:'/',component:Tui},
-      {path:'/tui',component:Tui},
-      {path:'/android',component:Android},
-      {path:'/ios',component:Ios},
-      {path:'/fe',component:Fe},
-      {path:'/be',component:Be},
-      {path:'/design',component:Design},
-      {path:'/product',component:Product}
+      {path:'',component:Tui},
+      {path:'tui',component:Tui},
+      {path:'android',component:Android},
+      {path:'ios',component:Ios},
+      {path:'fe',component:Fe},
+      {path:'be',component:Be},
+      {path:'design',component:Design},
+      {path:'product',component:Product}
     ]
 },
-  { path: '/zhuan', component: Zhuan},
-  { path: '/', component: Home }
+  { path: '/zhuanlan', component: Zhuan},
 
 ]
 
